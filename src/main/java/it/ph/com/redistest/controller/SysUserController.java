@@ -1,17 +1,13 @@
 package it.ph.com.redistest.controller;
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import io.netty.util.internal.StringUtil;
 import it.ph.com.redistest.model.SysUser;
 import it.ph.com.redistest.service.SysUserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Date;
 import java.util.List;
 
 /**
